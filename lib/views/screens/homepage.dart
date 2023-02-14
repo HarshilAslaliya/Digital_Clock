@@ -46,7 +46,7 @@ class _DClockState extends State<DClock> {
                             IconButton(
                               onPressed: () async {
                                 Navigator.of(context).pop();
-                                await prefs.remove('items');
+                                await prefs.remove('thoughts');
                               },
                               icon: Icon(Icons.delete,color: Colors.white,),
                             )
